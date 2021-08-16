@@ -1,0 +1,63 @@
+.micon{
+    position: relative;
+    right: 25px;
+    top: 3px;
+    cursor: pointer;
+}
+.innchoice {
+    width: 200px;
+    border: 2px solid black;
+    cursor: pointer;
+    display: none;
+}
+.choice {
+    position: absolute;
+    left: 43%;
+}
+.bi-x-circle-fill:hover{
+    opacity: 0.5;
+}
+.innchoice:hover {
+    background-color: black;
+    color: white;
+}
+.block {
+    display: block;
+}
+/* GLOBAL STYLES */
+body {
+    background: #333;
+    padding-top: 5em;
+  }
+  .wrapper{
+    height: 400px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    flex-direction: column;
+  }
+  .iccon{
+      font-size: 25px;
+      cursor: pointer;
+      color: palevioletred;
+  }
+  
+  /* DEMO-SPECIFIC STYLES */
+   h1 {
+    color: palevioletred;
+    font-family: monospace;
+    border-right: .15em solid #fff; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    padding-right:00px;
+    letter-spacing: .15em;
+    animation: blink .5s step-end           infinite alternate;
+  }
+  
+  
+  
+  /* The typewriter cursor effect */
+  @keyframes blink {
+    50% { border-color: transparent}
+  }
